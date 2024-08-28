@@ -1,0 +1,52 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+.main{
+    height: 65vh;
+    padding-top: 60px;
+    color: white;
+    background-color: #002244;/*; */
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    opacity: 65%;
+    font-size: 40px;
+    font-weight: 400;
+}
+h3{
+    opacity: 50%;
+    font-size: 40px;
+    font-weight: 100;
+}
+p{
+    font-size: larger;
+    font-weight: 100;
+    opacity: 40%;
+}
+.div-2{
+    margin-top: 3rem;
+    margin-left: 30%;
+    width: 450px;
+}
+.div-1{
+    margin-top: 3rem;
+    margin-left: 40px;
+    width: 550px;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img img {
+    width: 300px; /* Adjust the size of the image as needed */
+    height: 300px;
+    border-radius: 50%; /* This makes the image round */
+    object-fit: contain; /* Ensures the image fits within the circle */
+    background-color: rgba(6, 104, 216, 0.972);
+  }

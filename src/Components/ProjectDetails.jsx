@@ -1,6 +1,7 @@
 import Modal from 'react-bootstrap/Modal';
 import {React, useState} from 'react'
 import Button from "react-bootstrap/Button";
+import './ProjectDetails.css'
 
 
 export const ProjectDetails = ({show, onHide, Title,
@@ -21,10 +22,9 @@ export const ProjectDetails = ({show, onHide, Title,
         </Modal.Title>
       </Modal.Header>
       <Modal.Body >
-        <img style={{height:'400px', width:"650px", marginLeft:"50px"}} src={Image}/>
+        <img className='pro-img' src={Image}/>
         <br/>
           {Desc}
-
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={onHide}>Close</Button>

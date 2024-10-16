@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    background: #002244;
+    opacity: 0.9;
+    color: white;
+    margin-top: "40px";
+    justify-content: space-between;
+    background-color:#002244;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+}

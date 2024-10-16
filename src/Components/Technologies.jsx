@@ -1,4 +1,5 @@
 import React from 'react'
+import './Technologies.css'
 import html from "../resources/images/html.png";
 import css from "../resources/images/css.PNG";
 import react from "../resources/images/react.png";
@@ -10,7 +11,7 @@ export const Technologies = () => {
   return (
     <div className="tech">
         <h1 className="tech-h1">Technologies I Work With!</h1>
-        <div className="list">
+        <div className="list">  
           <ul>
             <li>
               <img src={html} alt="html here" />

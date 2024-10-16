@@ -37,6 +37,14 @@ const ProjectsList = [
 Technologies Used: React, Node.js, Express, MongoDB,
           JWT, CSS`,
   },
+  {
+    id: 4,
+    Image: Bits,
+    Title: "Bits",
+    Desc: `Developed a file-sharing platform with upload, download functionality. Implemented features like uplaoding files, images, PDFs, Generating shareable links, and Downloading Files by using the link. Simple yet effective UI.
+Technologies Used: React, Node.js, Express, MongoDB,
+          JWT, CSS`,
+  },
 ];
 
 export const Projects = () => {

@@ -1,0 +1,94 @@
+/* Default styles for larger screens */
+.tech {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+.tech-h1 {
+    display: flex;
+    justify-content: center;
+    opacity: 100%;
+    font-size: 65px;
+    font-weight: 300;
+}
+ul {
+    list-style: circle;
+    margin-left: 300px;
+    padding: 20px;
+}
+.li-h2 {
+    padding: 40px 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+li {
+    display: flex;
+    flex-direction: column;
+
+}
+img {
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0px 10px;
+}
+
+/* Responsive Styles */
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+    .tech-h1 {
+        font-size: 45px; /* Smaller font size for tablets */
+    }
+    ul {
+        margin-left: 100px;
+    }
+    .li-h2 {
+        font-size: 25px; /* Smaller heading size */
+        padding: 20px 10px;
+    }
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 576px) {
+    .tech-h1 {
+        font-size: 35px; /* Further reduction in font size */
+    }
+  
+    .list {
+        flex-direction: column; /* Stack list items vertically */
+        align-items: center;
+    }
+    .list ul{
+        display: flex;
+        align-items: baseline;
+        margin-left: 20px;
+        padding: 10px;
+        gap: 1rem;
+    }
+    li{
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        width: 30px;
+        height: 30px;
+    }
+    /* @media (max-width:) */
+}

@@ -1,52 +1,112 @@
-*{
-    padding: 0%;
+* {
+    padding: 0;
     margin: 0;
-}
-
-.main{
+  }
+  
+  .mainn {
     height: 65vh;
     padding-top: 60px;
     color: white;
-    background-color: #002244;/*; */
+    background-color: #002244;
     display: flex;
     justify-content: space-between;
-}
-
-h1{
+  }
+  
+  h1 {
     opacity: 65%;
     font-size: 40px;
     font-weight: 400;
-}
-h3{
+  }
+  
+  h3 {
     opacity: 50%;
     font-size: 40px;
     font-weight: 100;
-}
-p{
+  }
+  
+  p {
     font-size: larger;
     font-weight: 100;
     opacity: 40%;
-}
-.div-2{
+  }
+  
+  .div-2 {
     margin-top: 3rem;
     margin-left: 30%;
     width: 450px;
-}
-.div-1{
+  }
+  
+  .div-1 {
     margin-top: 3rem;
     margin-left: 40px;
     width: 550px;
-}
-.img {
+  }
+  
+  .img {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
   .img img {
-    width: 300px; /* Adjust the size of the image as needed */
+    width: 500px;
     height: 300px;
-    border-radius: 50%; /* This makes the image round */
-    object-fit: contain; /* Ensures the image fits within the circle */
+    border-radius: 50%;
+    object-fit: contain;
     background-color: rgba(6, 104, 216, 0.972);
   }
+  
+  /* Responsive styles */
+  
+  /* For tablets */
+  @media (max-width: 768px) {
+    .mainn {
+      flex-direction: column; /* Stack elements vertically on smaller screens */
+      height: auto;
+      padding: 2rem;
+    }
+    
+    .div-2, .div-1 {
+      width: 100%; /* Make divs take up full width */
+      margin-left: 0; /* Reset margin */
+    }
+  
+    h1, h3 {
+      font-size: 32px; /* Smaller font size for headings */
+    }
+  
+    p {
+      font-size: medium; /* Smaller font size for paragraph */
+    }
+  
+    .img img {
+      width: 200px; /* Reduce image size */
+      height: 200px;
+    }
+  }
+  
+  /* For mobile phones */
+  @media (max-width: 576px) {
+    .main {
+      padding-top: 30px;
+    }
+  
+    h1, h3 {
+      font-size: 28px; /* Further reduce heading size */
+    }
+  
+    p {
+      font-size: small;
+    }
+  
+    .div-2, .div-1 {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .img img {
+      width: 150px; /* Further reduce image size */
+      height: 150px;
+    }
+  }
+  

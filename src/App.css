@@ -2,3 +2,59 @@ body{
     background-color:#0066b2;
     color: white;
 }
+/* Mobile-first design */
+body {
+    width: 100%;
+    font-size: 16px;
+}
+
+.main {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h3 {
+    font-size: 1.5rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.div-1, .div-2 {
+    width: 90%; /* Set a percentage width for responsiveness */
+    margin-left: 0; /* Remove large margins */
+}
+
+/* For screens larger than 768px (tablet, desktop) */
+@media (min-width: 768px) {
+    .main {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    h1, h3 {
+        font-size: 2.5rem;
+    }
+
+    .cards {
+        flex-direction: row;
+    }
+
+    .card {
+        width: 30%;
+    }
+
+    .div-1, .div-2 {
+        margin-left: 30%;
+        width: 450px;
+    }
+}

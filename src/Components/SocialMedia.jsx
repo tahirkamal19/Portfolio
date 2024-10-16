@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin,FaEnvelope , FaWhatsapp } from 'react-icons/fa';
 
 function SocialMedia() {
   return (
-    <ul style={{ display: 'flex', gap: '2rem' }} aria-label="Social media">
+    <ul style={{ display: 'flex', flexWrap:"wrap", gap: '2rem' }} aria-label="Social media">
       <li>
         <a
           href="https://github.com/tahirkamal19"

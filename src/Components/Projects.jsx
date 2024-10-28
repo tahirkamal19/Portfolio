@@ -33,15 +33,7 @@ const ProjectsList = [
     id: 3,
     Image: Bits,
     Title: "Bits",
-    Desc: `Developed a file-sharing platform with upload, download functionality. Implemented features like uplaoding files, images, PDFs, Generating shareable links, and Downloading Files by using the link. Simple yet effective UI.
-Technologies Used: React, Node.js, Express, MongoDB,
-          JWT, CSS`,
-  },
-  {
-    id: 4,
-    Image: Bits,
-    Title: "Bits",
-    Desc: `Developed a file-sharing platform with upload, download functionality. Implemented features like uplaoding files, images, PDFs, Generating shareable links, and Downloading Files by using the link. Simple yet effective UI.
+    Desc: `Developed an E-commerce Marketplace for users to signup as either sellers or buyers. 
 Technologies Used: React, Node.js, Express, MongoDB,
           JWT, CSS`,
   },

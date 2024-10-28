@@ -7,9 +7,9 @@ export const About = () => {
       <div className="mainn">
         <div className="div-1">
           <h1>Muhammad Tahir Kamal</h1>
-          <h3>Web Developer</h3>
-          <br></br>
-          <h3>Development is an art!</h3>
+          <br />
+          <h3>Web Developer /</h3>
+          <h3>MERN Stack Developer</h3>
         </div>
         <span className="img">
           <img src={img1} alt="" />
